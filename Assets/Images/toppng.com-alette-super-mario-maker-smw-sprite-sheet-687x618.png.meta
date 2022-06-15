@@ -1,0 +1,1124 @@
+fileFormatVersion: 2
+guid: bd4c279e5f3acd747a19217082f20f47
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 690
+        width: 178
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e6a91e4f43e804d838dc81bbbb160e
+      internalID: 1272850456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 690
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6916834f6e53d4d8829b8ff763b21e
+      internalID: 1580665499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_2
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 690
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4788a4db0bd031944950b548f34f91f6
+      internalID: -802203729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_3
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 690
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07e13cd890723b498b5074dc4c720a2
+      internalID: 633496917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_4
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 690
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2faf084a69956b442b6efb8e23cffde5
+      internalID: -279314380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_5
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 672
+        width: 178
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f443f0cae7adee45ba4c6e4b44c9363
+      internalID: 1276882483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_6
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 672
+        width: 40
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817c6e376d443b24b96ef6a0e3fb7ba6
+      internalID: -137036137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_7
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 672
+        width: 39
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8606345557ca734498026cff1e3f0e3
+      internalID: -1261488739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_8
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 690
+        width: 119
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71da5253f5207864285b79c7db793bad
+      internalID: 360043027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_9
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 611
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33da2370ea07a9e49a573f89b1cf1060
+      internalID: 1827573959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_10
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 593
+        width: 179
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d013598717aae4386c5d1cb45bd852
+      internalID: -1684941679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_11
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 603
+        width: 119
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f930325d53b464143aa8d7abb12b67bf
+      internalID: -1855275790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_12
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 593
+        width: 416
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b0b423b433c3443a9af24fd4359125
+      internalID: 2026375047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 514
+        width: 416
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19544b4ff50df374594ac641a067ebfd
+      internalID: -1374263479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_14
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 514
+        width: 416
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023b16698e2e9514b8eb2caf63745548
+      internalID: -1705615759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 435
+        width: 416
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eaf7dc1eb2ba804db9d8607470d6b1e
+      internalID: 1747421821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_16
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 435
+        width: 416
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850112c8147a05f4a9808395f70ad5b4
+      internalID: 1599164940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_17
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 356
+        width: 59
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ec59e602dee1746b51672637134beb
+      internalID: 649751652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_18
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 356
+        width: 357
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f314b7dfd49ca42bc9e2cc9bf06713
+      internalID: -280349805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_19
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 356
+        width: 297
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3544c0462473abe4e918b4317f353b22
+      internalID: -342073132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_20
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 374
+        width: 119
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0ce838b1b7057479b797a3dc2173a5
+      internalID: -1643963713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 238
+        width: 257
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9151e29bf5859ac4c9cedf830c81cbb0
+      internalID: -1031976650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_22
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 277
+        width: 40
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c08af0e03551a747bc22a358128465e
+      internalID: 316039131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_23
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 277
+        width: 40
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3775a0a1ec142944b2d9345a43f840d
+      internalID: -1304267200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_24
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 277
+        width: 118
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48688a7f7f83a674d9064259f354ab94
+      internalID: -10268915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_25
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 277
+        width: 297
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4a9510082c5e44da34014b2545d5fd
+      internalID: -1026125457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_26
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 194
+        width: 59
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53707ce8af61af549bce563c497071fd
+      internalID: -107315094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_27
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 177
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd04b0cbd1542894b8c43dcfbeada036
+      internalID: -1921756234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_28
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 159
+        width: 297
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831fb1a902c8e0649b9e0099bebd53fd
+      internalID: -165986618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_29
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 159
+        width: 178
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f10f544f26987f44855080946f18185
+      internalID: 1512831496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_30
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 159
+        width: 238
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2c13ba50814794280f99263911c540
+      internalID: -680705020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_31
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 98
+        width: 178
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209d7516b3ae28648bc06ef28dcb74d3
+      internalID: 148154569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_32
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 99
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86300a8fbf206b54d82e885d208f2c76
+      internalID: -653352624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_33
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 80
+        width: 178
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71a76d556da661489027425860cd071
+      internalID: 1228472684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_34
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 80
+        width: 119
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55731181f7a1aac4cb5d1bdb3d32a207
+      internalID: -681772111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_35
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 98
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526cc9c7fbc2aba45bd1b84ca5485f63
+      internalID: -2134798707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_36
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 96
+        width: 238
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5676c02aca671c40800c52a30cb303c
+      internalID: 1564409755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_37
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 19
+        width: 178
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4973fa465dd8d64aa89c0d9ceca5234
+      internalID: 1215821156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_38
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 21
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe089ba59206304184650d74a9be9e0
+      internalID: 1654235716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_39
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1
+        width: 59
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe771f3b657840a4ebadeaf9b7d1dc63
+      internalID: -999679752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_40
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1
+        width: 119
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4609f670d79e2b4cb782471f1db0167
+      internalID: 1549348673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_41
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 19
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658bb7a26a6178741ac8b4a9be01775b
+      internalID: -225857650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_42
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 19
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7edbc08c602017f488b7ac5f3b3d6889
+      internalID: -1075173906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_43
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 19
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224b48ed24044c24bb0a49df76b2371e
+      internalID: 1544373536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_44
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 31
+        width: 119
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a645d962d2ba8d49b18437db437ddfa
+      internalID: 1025345777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_39: -999679752
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_14: -1705615759
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_5: 1276882483
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_15: 1747421821
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_18: -280349805
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_12: 2026375047
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_40: 1549348673
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_41: -225857650
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_24: -10268915
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_11: -1855275790
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_8: 360043027
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_33: 1228472684
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_26: -107315094
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_0: 1272850456
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_36: 1564409755
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_4: -279314380
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_6: -137036137
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_10: -1684941679
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_31: 148154569
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_21: -1031976650
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_17: 649751652
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_42: -1075173906
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_38: 1654235716
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_25: -1026125457
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_28: -165986618
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_1: 1580665499
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_29: 1512831496
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_34: -681772111
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_37: 1215821156
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_27: -1921756234
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_9: 1827573959
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_32: -653352624
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_43: 1544373536
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_35: -2134798707
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_22: 316039131
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_20: -1643963713
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_7: -1261488739
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_23: -1304267200
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_44: 1025345777
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_2: -802203729
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_16: 1599164940
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_3: 633496917
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_30: -680705020
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_13: -1374263479
+      toppng.com-alette-super-mario-maker-smw-sprite-sheet-687x618_19: -342073132
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
