@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -18,7 +16,7 @@ public class PlayerController : MonoBehaviour
     }
 
     void Update()
-    {               
+    {
         MovePlayer();
     }
 
@@ -41,11 +39,10 @@ public class PlayerController : MonoBehaviour
         rb.velocity = new Vector2(0, jumpPower);
         isGrounded = false;
     }
-
+    
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        var groundCheck = Physics2D.Raycast(transform.position, Vector2.down, 0.7f);
-        if( groundCheck.collider != null && groundCheck.collider.CompareTag("Ground"));
+        if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
         }
@@ -57,7 +54,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetButton("Jump") && shootTimer >= shootFrequency)
         {
-            
+
         }
     }
 }
