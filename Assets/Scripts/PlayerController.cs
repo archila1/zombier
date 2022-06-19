@@ -5,6 +5,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float playerSpeed = 5.0f;
     [SerializeField] private float jumpPower = 5.0f;
     [SerializeField] GameObject projectile;
+    [SerializeField] Transform shootPosition;
+
+
     bool isGrounded = true;
     float shootFrequency = 0.3f;
     float shootTimer;
@@ -18,12 +21,10 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         MovePlayer();
-    }
-
-    private void FixedUpdate()
-    {
+        shootTimer += Time.deltaTime;
         Shoot();
     }
+
     public void MovePlayer()
     {
         if (Input.GetButton("Vertical") && isGrounded)
@@ -50,11 +51,12 @@ public class PlayerController : MonoBehaviour
 
     void Shoot()
     {
-        shootTimer += Time.deltaTime;
+        
 
-        if (Input.GetButton("Jump") && shootTimer >= shootFrequency)
+        if (Input.GetButton("Space") && shootTimer >= shootFrequency)
         {
-
+            Instantiate(projectile, shootPosition.position, shootPosition.rotation);
+            shootTimer = 0;
         }
     }
 }
