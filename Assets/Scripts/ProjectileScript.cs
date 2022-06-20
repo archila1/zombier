@@ -4,16 +4,29 @@ using UnityEngine;
 
 public class ProjectileScript : MonoBehaviour
 {
+    GameObject player;
     public float speed = 20f;
     Rigidbody2D rb;
     float pojectileLiveCiyle = 2f;
     float destroyProjectile = 0;
+    
 
 
     void Start()
     {
+        player = GameObject.Find("Player");
         rb = gameObject.GetComponent<Rigidbody2D>();
-        rb.velocity = transform.right * speed;       
+        if (player.GetComponent<SpriteRenderer>().flipX == false)
+        {
+            rb.velocity = transform.right * speed;
+        }
+        else
+        {
+            rb.velocity = transform.right * -speed;
+        }
+        
+        
+              
     }
 
     private void Update()

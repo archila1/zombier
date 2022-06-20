@@ -64,7 +64,10 @@ public class SceneManage : MonoBehaviour
     }
 
 
-
+    public void GameOver()
+    {
+        SceneManager.LoadScene("GameOver");
+    }
  
     
 
