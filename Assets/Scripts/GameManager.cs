@@ -2,27 +2,39 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
     public bool isAlive;
     public int score = 0;
-    Animator animator;
+    GameObject player;
+    TextMeshProUGUI scoreText;
 
     private void Start()
     {
-        animator = GameObject.Find("Player").GetComponent<Animator>();
+        if(SceneManager.GetActiveScene().buildIndex == 0)
+        {
+            return;
+        }
+        else
+        {
+            player = GameObject.Find("Player");
+            scoreText = GameObject.Find("Score").GetComponent<TextMeshProUGUI>();
+        }
+        IncreaseScore(0);
     }
 
     public void IncreaseScore(int val)
     {
         score += val;
+        scoreText.text = $"Score: {val}";
     }
 
     public void PlayerDeath()
     {
         isAlive = false;
-        animator.SetBool("Is_Alive", false);       
+        player.GetComponent<Animator>().SetBool("Is_Alive", false);       
         Invoke("GameOver", 2f);
     }
     private void GameOver()
@@ -32,6 +44,15 @@ public class GameManager : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        PlayerDeath();
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(collision.gameObject);
+        }
+        else
+        {
+            player.GetComponent<PlayerController>().enabled = false;
+            PlayerDeath();
+
+        }
     }
 }

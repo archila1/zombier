@@ -368,8 +368,14 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: Move_Speed
     m_EventTreshold: 0
-  - m_ConditionMode: 3
-    m_ConditionEvent: Move_Speed
+  - m_ConditionMode: 2
+    m_ConditionEvent: Is_Shooting
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Is_Jumping
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: Is_Alive
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2497334398544256309}
