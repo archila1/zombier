@@ -9,14 +9,13 @@ public class Coin : MonoBehaviour
     private void Start()
     {
         score = FindObjectOfType<GameManager>();
-        score.score = 0;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            score.score++;
+            score.IncreaseScore(1);
             Destroy(gameObject);
         }
     }

@@ -8,7 +8,10 @@ using UnityEngine.SceneManagement;
 public class SceneManage : MonoBehaviour
 {
 
-
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
     public void NewGame()
     {
         SceneManager.LoadScene("GameScene");

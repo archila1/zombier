@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
     public void IncreaseScore(int val)
     {
         score += val;
-        scoreText.text = $"Score: {val}";
+        scoreText.text = $"Score: {score}";
     }
 
     public void PlayerDeath()
