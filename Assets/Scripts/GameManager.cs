@@ -34,12 +34,13 @@ public class GameManager : MonoBehaviour
     public void PlayerDeath()
     {
         isAlive = false;
-        player.GetComponent<Animator>().SetBool("Is_Alive", false);       
+        player.GetComponent<Animator>().SetBool("Is_Alive", false);    
+        player.GetComponent<PlayerController>().enabled = false;
         Invoke("GameOver", 2f);
     }
     private void GameOver()
     {
-        SceneManager.LoadScene("GameOver");
+        SceneManager.LoadScene("MainMenu");
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -6,7 +6,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float jumpPower = 5.0f;
     [SerializeField] GameObject projectile;
     [SerializeField] Transform shootPosition;
-
+    [SerializeField] AudioClip shootSound;
+    [SerializeField] AudioClip jumpSound;
+    [SerializeField] AudioClip coinGatherSound;
+    AudioSource playerAudio;
     Animator animator;
     float jumpingTimer = 0;
     bool isGrounded = true;
@@ -19,6 +22,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         playerSprite = GetComponent<SpriteRenderer>();
+        playerAudio = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -52,6 +56,7 @@ public class PlayerController : MonoBehaviour
     {
         if (jumpingTimer >= 0.7f)
         {
+            playerAudio.PlayOneShot(jumpSound, 0.5f);
             rb.velocity = new Vector2(0, jumpPower);
             isGrounded = false;
             animator.SetBool("Is_Jumping", true);
@@ -68,7 +73,13 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("Is_Jumping", false);
         }
     }
-
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Coin"))
+        {
+            playerAudio.PlayOneShot(coinGatherSound, 0.5f);
+        }
+    }
     void Shoot()
     {
 
@@ -78,6 +89,7 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("Is_Shooting", true);
             Instantiate(projectile, shootPosition.position, shootPosition.rotation);
             shootTimer = 0;
+            playerAudio.PlayOneShot(shootSound, 0.5f);
         }
         else
         {
